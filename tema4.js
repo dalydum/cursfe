@@ -11,3 +11,4 @@ let activity2 = 'to buy';
 console.log('name + activity1 + activity2 + car');
 
 
+
