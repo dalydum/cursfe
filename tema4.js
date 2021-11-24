@@ -1,7 +1,6 @@
 let persoana = 'Jane Smith';
 let persoana = 'name';
-let altavariabila = $12.450;
-let altavariabila = sum;
+let sum = '$12,450';
 let variabila = 'Toyota Yaris';
 let variabila = 'car';
 let activity1 = 'plans';

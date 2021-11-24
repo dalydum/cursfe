@@ -1,4 +1,3 @@
-main.js
 console.log('salut');
 console.log('tuturor');
 console.log('salut');
