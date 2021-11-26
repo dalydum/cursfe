@@ -14,7 +14,7 @@ console.log('altavariabila');
 altavariabila = 5 * 3;
 
 conso.log(altavariabila);
-persoana = 'tudor' + 'dan';
+persoana = 'tudor' + ' dan';
 console.log(persoana);
 
 persoana = tudor + ' goia'
