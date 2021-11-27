@@ -9,10 +9,27 @@ let activity3 = has;
 let premise = 'in her banck account';
 let activity4 = 'is';
 let premise1 = 'a lot of money';
-console.log('name+activity3+sum+letpremise');
-console.log('sum+let activity4 +let premise1');
+let intention = 'will use her';
+console.log('name + activity3 + sum + premise');
+console.log('sum + activity4 + premise1');
 console.log('name + activity1 + activity2 + car');
-console.log('sum+letactivity4+letpremise1+car');
+console.log('sum + activity4 + premise1 + car');
+console.log("\n=============================\n")
+console.log('sum + activity4 + premise1');
+console.log('sum + activity 4+ premise1+car');
+console.log('name + activity1 + activity2 + car');
+console.log('name + activity3+ sum + premise');
+console.log('name + intention + sum + activity2 + car');
+console.log("\n=============================\n")
+console.log('name + activity1 + activity2 + car');
+console.log('sum + activity4 + premise1+car');
+console.log('name + intention + sum + activity2 + car');
+onsole.log('name + activity3+ sum + premise');
+console.log('sum + activity4 + premise1');
+
+
+
+
 
 
 

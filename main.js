@@ -1,8 +1,9 @@
 console.log('salut');
 console.log('tuturor');
 console.log('salut');
-
-
+console.log('salut');
+console.log('tuturor');
+console.log('salut');
 
 
 let a = 4;
@@ -13,12 +14,15 @@ console.log('altavariabila');
 
 altavariabila = 5 * 3;
 
-conso.log(altavariabila);
+console.log(altavariabila);
 persoana = 'tudor' + ' dan';
 console.log(persoana);
 
-persoana = tudor + ' goia'
+persoana = persoana + ' goia'
 console.log(persoana);
+
+alert(persoana);
+
 
 
 
