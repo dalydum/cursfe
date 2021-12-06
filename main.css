@@ -1,5 +1,25 @@
 body {
     margin: 0;
+    position: relative;
+}
+
+#popup {
+    position: fixed;
+    top: 100px;
+    bottom: 100px;
+    left: 50px;
+    right: 50px;
+    border-style: solid;
+    background-color: beige;
+}
+
+#popup .popupHeader {
+    display: flex;
+    flex-direction: row-reverse;
+}
+#popup .popupHeaderClose {
+    padding: 3px 10px 3px 10px;
+    cursor: pointer;
 }
 
 a{
