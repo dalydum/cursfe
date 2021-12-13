@@ -9,13 +9,13 @@
 
 //ourSingleH1.innerHTML += ' (updated)';
 
-let closeButtons = document.querySelectorAll('#popup .popupHeaderClose');
+let closeButtons = document.querySelectorAll('#crewPopup .popupHeaderClose');
 
 let ourcloseButton = closeButtons[0];
 
 ourcloseButton.addEventListener('click', function () {
 
-    let ourPopup = document.getElementById('popup');
+    let ourPopup = document.getElementById('crewPopup');
     ourPopup.style.display = 'none';
 });
 
