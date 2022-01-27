@@ -2,45 +2,37 @@
 <html>
 
 <head>
-    <title>SpaceX Info Site - Home</title>
+    <title>SpaceX Info Site - Crew</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="crew/crew.css">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-    <script src="myMoment.js" defer></script>
-    <script src="crew/init.js" defer></script>
+    <script src="crew/crewInit.js" defer></script>
     <script src="main.js" defer></script>
-    <script src="domElementsPlay.js" defer></script>
-    <script src="recapitulare1.js" defer></script>
 </head>
-
 
 <body>
     <div id="header">
-        <h1>SpaceX Info Site - Home</h1>
+        <h1>SpaceX Info Site - Crew &#x1F601;</h1>
     </div>
     <div id="menu">
-        <a>Home</a>
-        <a>Launches</a>
-        <a>Crew</a>
+        <a href="index.html">Home</a>
+        <a href="launches.html">Launches</a>
+        <a class="selected" href="crew.html">Crew</a>
     </div>
     <div id="content">
-        <div id="crewTile" class="contentTile">a</div>
-        <div id="capsulesTile" class="contentTile">a</div>
-        <div id="launchesTile" class="contentTile">a</div>
+        <div id="crewTile" class="contentTile">
+            <div class="contentTileCore"></div>
+        </div>
     </div>
-    <div id="crewPopup">
+    <div id="crewPopup" class="popup">
         <div class="popupHeader">
-            <span class="popupHeaderClose">x</span>
+            <span class="headerClose">x</span>
         </div>
         <div class="popupContent">
             <div id="nasaCol"></div>
             <div id="spacexCol"></div>
         </div>
-
     </div>
-
-
 </body>
 
 </html>
