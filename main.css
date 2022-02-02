@@ -3,15 +3,6 @@ body {
     position: relative;
 }
 
-a {
-    cursor: pointer;
-}
-
-body {
-    margin: 0;
-    position: relative;
-}
-
 body>div {
     max-width: 1000px;
     margin: auto;
@@ -41,6 +32,10 @@ a {
     aspect-ratio: 5 / 3;
 }
 
+.contentTileCore h4 {
+    color: darkblue;
+}
+
 @media only screen and (min-width: 801px) {
     .contentTile {
         width: 33.3%;
@@ -60,6 +55,9 @@ a {
 }
 
 .contentTileCore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 10px;
     background-color: lightgrey;
     width: calc(100% - 20px);

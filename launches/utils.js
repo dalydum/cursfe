@@ -17,6 +17,25 @@ let utils = {
             }
         }
         return currentIndex;
+    },
+
+    getLaunchesPerMonthFromAllLaunches: function(allLaunches) {
+
+        let launchesPerMonth = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
+        for (let i = 0; i < allLaunches.length; i++) {
+
+            let aLaunch = allLaunches[i];
+            let dateUTC = aLaunch.date_utc;
+            let monthPart = dateUTC.split('-')[1];
+
+            let monthAsNumber = parseInt(monthPart);
+
+            launchesPerMonth[monthAsNumber - 1]++;
+
+        }
+
+        return launchesPerMonth;
     }
 
 };
